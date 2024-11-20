@@ -5,5 +5,6 @@
 
 > [!IMPORTANT]
 > es importante
+
 > [!NOTE]
 > es importante
