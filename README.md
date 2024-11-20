@@ -8,5 +8,5 @@
 
 > [!NOTE]
 > es importante
->
-> [Mi Página Web](https://Alecrack640.github.io/formulario_J_A_Y/blob/casa/formulario_J_A_Y.html)
+
+> [Mi Página Web](https://alecrack640.github.io/formulario_J_A_Y/formulario_J_A_Y.html)
