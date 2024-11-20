@@ -1,4 +1,9 @@
 # formulario_J_A_Y
 
-> [!casa]
+> [!TIP]
+> es importante
+
+> [!IMPORTANT]
+> es importante
+> [!NOTE]
 > es importante
