@@ -9,7 +9,7 @@
   <form action="https://webhook.site/4eb72c14-9d8e-4b14-9f92-754756ef014b" method="POST" enctype="multipart/form-data">
     
     <!-- Campo oculto con tu nombre y apellidos -->
-    <input type="hidden" name="alumno" value="Tu Nombre Completo">
+    <input type="hidden" name="alumno" value="Alejandro_Batista, Yeremy_Travieso, Joel_Santana">
 
     <!-- Fieldset: Datos del usuario -->
     <fieldset>
@@ -28,9 +28,9 @@
       <input type="password" id="password" name="password" minlength="5" maxlength="10" required>
       <br><br>
       <!-- Teléfono -->
-      <label for="telefono">Teléfono</label>
+      <label for="telefono">Teléfono (*)</label>
       <span>+34</span>
-      <input type="text" id="telefono" name="telefono" pattern="\d{3} \d{3} \d{3} \d{3}" placeholder="123 456 789 012" required>
+      <input type="text" id="telefono" name="telefono" pattern="\d{3} \d{3} \d{3}" placeholder="123 456 789" required>
 
 
         <br><br>
@@ -45,27 +45,37 @@
 
       <!-- Fecha del entrenamiento -->
       <label for="fecha">Fecha del Entrenamiento (*)</label>
-      <input type="date" id="fecha" name="fecha" max="2024-12-31" min="2024-01-01" required>
+      <input type="date" id="fecha" name="fecha" max="2024-12-31" min="2000-01-01" required>
         <div>
             <!-- Imágenes del entrenamiento -->
-            <label for="imagenes">Imágenes del Entrenamiento (JPG)</label>
+            <label for="imagenes">Imágenes del Entrenamiento (JPG)👉</label>
             <input type="file" id="imagenes" name="imagenes[]" accept=".jpg" multiple>
         </div>
         <div>
             <!-- Rutina de ejercicios -->
-            <label for="rutina">Rutina de Ejercicios (PDF)</label>
+            <label for="rutina">Rutina de Ejercicios (PDF)👉</label>
             <input type="file" id="rutina" name="rutina" accept=".pdf">
             </div>
       <!-- Salas utilizadas con opciones -->
       <label for="salas">Salas Utilizadas (*)</label><br>
-      <select id="salas" name="salas[]" multiple required>
-        <option value="pista_exterior">Pista Exterior</option>
-        <option value="piscina">Piscina</option>
-        <option value="sala_musculacion">Sala de Musculación</option>
-        <option value="sala_spinning">Sala de Spinning</option>
-        <option value="sala_polivalente">Sala Polivalente</option>
-        <option value="zona_cardio">Zona Cardio</option>
-      </select>
+      <label>
+        <input type="radio" name="salas" value="pista_exterior"> Pista Exterior
+      </label><br>
+      <label>
+        <input type="radio" name="salas" value="piscina"> Piscina
+      </label><br>
+      <label>
+        <input type="radio" name="salas" value="sala_musculacion"> Sala de Musculación
+      </label><br>
+      <label>
+        <input type="radio" name="salas" value="sala_spinning"> Sala de Spinning
+      </label><br>
+      <label>
+        <input type="radio" name="salas" value="sala_polivalente"> Sala Polivalente
+      </label><br>
+      <label>
+        <input type="radio" name="salas" value="zona_cardio"> Zona Cardio
+      </label>
     </fieldset>
 
     <!-- Fieldset: Rendimiento del entrenamiento -->
