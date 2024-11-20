@@ -1,4 +1,4 @@
 # formulario_J_A_Y
 
-> .[!IMPORTANT]
+> [!IMPORTANT]
 > es importante
