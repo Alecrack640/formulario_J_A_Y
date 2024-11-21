@@ -29,10 +29,8 @@
       <br><br>
       <!-- Teléfono -->
       <label for="telefono">Teléfono (*)</label>
-      <span>+34</span>
-      <input type="text" id="telefono" name="telefono" pattern="\d{3} \d{3} \d{3}" placeholder="123 456 789" required>
-
-
+        <span>+34</span>
+        <input type="text" id="telefono" name="telefono" pattern="928 \d{2} \d{2} \d{2}" placeholder="928-XX-XX-XX" value="928 " required />
         <br><br>
       <!-- Email -->
       <label for="email">Email (*)</label>
@@ -45,7 +43,7 @@
 
       <!-- Fecha del entrenamiento -->
       <label for="fecha">Fecha del Entrenamiento (*)</label>
-      <input type="date" id="fecha" name="fecha" max="2024-12-31" min="2000-01-01" required>
+      <input type="date" id="fecha" name="fecha" max="2024-12-31" min="2024-01-01" required>
         <div>
             <!-- Imágenes del entrenamiento -->
             <label for="imagenes">Imágenes del Entrenamiento (JPG)👉</label>
@@ -59,22 +57,22 @@
       <!-- Salas utilizadas con opciones -->
       <label for="salas">Salas Utilizadas (*)</label><br>
       <label>
-        <input type="radio" name="salas" value="pista_exterior"> Pista Exterior
+        <input type="checkbox" name="salas" value="pista_exterior"> Pista Exterior
       </label><br>
       <label>
-        <input type="radio" name="salas" value="piscina"> Piscina
+        <input type="checkbox" name="salas" value="piscina"> Piscina
       </label><br>
       <label>
-        <input type="radio" name="salas" value="sala_musculacion"> Sala de Musculación
+        <input type="checkbox" name="salas" value="sala_musculacion"> Sala de Musculación
       </label><br>
       <label>
-        <input type="radio" name="salas" value="sala_spinning"> Sala de Spinning
+        <input type="checkbox" name="salas" value="sala_spinning"> Sala de Spinning
       </label><br>
       <label>
-        <input type="radio" name="salas" value="sala_polivalente"> Sala Polivalente
+        <input type="checkbox" name="salas" value="sala_polivalente"> Sala Polivalente
       </label><br>
       <label>
-        <input type="radio" name="salas" value="zona_cardio"> Zona Cardio
+        <input type="checkbox" name="salas" value="zona_cardio"> Zona Cardio
       </label>
     </fieldset>
 
