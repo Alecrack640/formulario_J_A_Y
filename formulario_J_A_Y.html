@@ -16,24 +16,24 @@
       <legend>Datos Usuario</legend>
 
       <!-- DNI -->
-      <label for="Dni">DNI (*)</label>
+      <label for="dni">DNI (*)</label>
       <input type="text" id="Dni" name="Dni" maxlength="9" required>
         <br><br>
       <!-- Nombre y apellidos -->
-      <label for="Nombre">Nombre y Apellidos (*)</label>
+      <label for="nombre">Nombre y Apellidos (*)</label>
       <input type="text" id="Nombre" name="Nombre" maxlength="100" required>
         <br><br>
       <!-- Contraseña -->
-      <label for="Password">Contraseña (*)</label>
+      <label for="password">Contraseña (*)</label>
       <input type="password" id="Password" name="Password" minlength="5" maxlength="10" required>
       <br><br>
       <!-- Teléfono -->
-      <label for="Telefono">Teléfono (*)</label>
+      <label for="telefono">Teléfono (*)</label>
         <span>+34</span>
         <input type="text" id="Telefono" name="Telefono" pattern="928 \d{2} \d{2} \d{2}" placeholder="928-XX-XX-XX" value="928 " required />
         <br><br>
       <!-- Email -->
-      <label for="Email">Email (*)</label>
+      <label for="email">Email (*)</label>
       <input type="email" id="Email" name="Email" pattern="[a-zA-Z0-9._%+-]+@gmail\.com" required>
     </fieldset>
 
@@ -42,16 +42,16 @@
       <legend>Datos Entrenamiento</legend>
 
       <!-- Fecha del entrenamiento -->
-      <label for="Fecha">Fecha del Entrenamiento (*)</label>
+      <label for="fecha">Fecha del Entrenamiento (*)</label>
       <input type="date" id="Fecha" name="Fecha" max="2024-12-31" min="2024-01-01" required>
         <div>
             <!-- Imágenes del entrenamiento -->
-            <label for="Imagenes">Imágenes del Entrenamiento (JPG)👉</label>
+            <label for="imagenes">Imágenes del Entrenamiento (JPG)👉</label>
             <input type="file" id="Imagenes" name="Imagenes[]" accept=".jpg" multiple>
         </div>
         <div>
             <!-- Rutina de ejercicios -->
-            <label for="Rutina">Rutina de Ejercicios (PDF)👉</label>
+            <label for="rutina">Rutina de Ejercicios (PDF)👉</label>
             <input type="file" id="Rutina" name="Rutina[]" accept=".pdf" multiple>
             </div>
       <!-- Salas utilizadas con opciones -->
@@ -87,7 +87,7 @@
         <br>
       <!-- Valoración del nivel de esfuerzo -->
       <label for="Esfuerzo">Valoración del Nivel de Esfuerzo (*)</label>
-      <input type="range" id="Esfuerzo" name="Esfuerzo" min="1" max="10" value="1" oninput="Valoresfuerzo.value = this.value" required> <output id="Valoresfuerzo">1</output>
+      <input type="range" id="Esfuerzo" name="Esfuerzo" min="1" max="10" value="1" oninput="valoresfuerzo.value = this.value" required> <output id="aloresfuerzo">1</output>
         <br>
       <!-- Tipo de entrenamiento -->
       <label>Tipo de Entrenamiento (*)</label>
